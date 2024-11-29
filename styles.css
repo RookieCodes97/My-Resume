@@ -1,0 +1,139 @@
+:root {
+    --lblue: #a0ffe3;
+    --green: #65dc98;
+    --lgrey: #8d8980;
+    --dgrey: #575267;
+    --dblue: #222035;
+    --silver1: #a8a9ad;
+    --silver2: #b4b5b8;
+    --silver3: #c0c0c3;
+    --silver4: #cbcccd;
+    --silver5: #d7d7d8;
+    --silver6: #e3e3e3;
+}
+
+@font-face { font-family: glitchgoblin; src: url('../fonts/GlitchGoblin-2O87v.ttf'); } 
+@font-face { font-family: glitchcrafty; src: url('../fonts/Glitchcrafty-lgo4V.ttf'); } 
+@font-face { font-family: cyborgpunk; src: url('../fonts/Cyborg Punk.ttf'); } 
+
+
+
+body {
+    background-color: var(--dblue);
+    text-align: center;
+    box-shadow: 3px 3px 50px red;
+    animation: 10s ease-in-out 0s infinite rainbow;
+}
+
+@keyframes rainbow {
+    0%      {box-shadow: 3px 3px 40px red;}
+    12.5%   {box-shadow: 3px 3px 40px #ff00a8;}
+    25%     {box-shadow: 3px 3px 40px #c400ff;}
+    37.5%   {box-shadow: 3px 3px 40px #00d3ff;}
+    50%     {box-shadow: 3px 3px 40px #00ffaf;}
+    62.5%   {box-shadow: 3px 3px 40px #1aff00;}
+    75%     {box-shadow: 3px 3px 40px #dbff00;}
+    87.5%   {box-shadow: 3px 3px 40px #ffc000;}
+    100%    {box-shadow: 3px 3px 40px red;}
+}
+
+.header {
+    padding-top: 5px;
+}
+
+.header, .second {
+    border: 5px solid var(--dgrey);
+    background-image: linear-gradient(
+        to bottom right,
+        var(--silver1) 25%,
+        var(--silver2) 30%,
+        var(--silver3) 45%,
+        var(--silver4) 60%,
+        var(--silver5) 85%,
+        var(--silver6) 100%
+        );
+}
+
+.title {
+    font-family: cyborgpunk;
+    color: var(--dblue);
+    text-shadow: 2px 2px red;
+    animation: 10s ease-in-out 0s infinite rainbow2;
+}
+
+@keyframes rainbow2 {
+    0%      {text-shadow: 3px 3px 5px red;}
+    12.5%   {text-shadow: 3px 3px 5px #ff00a8;}
+    25%     {text-shadow: 3px 3px 5px #c400ff;}
+    37.5%   {text-shadow: 3px 3px 5px #00d3ff;}
+    50%     {text-shadow: 3px 3px 5px #00ffaf;}
+    62.5%   {text-shadow: 3px 3px 5px #1aff00;}
+    75%     {text-shadow: 3px 3px 5px #dbff00;}
+    87.5%   {text-shadow: 3px 3px 5px #ffc000;}
+    100%    {text-shadow: 3px 3px 5px red;}
+}
+
+.subtitle {
+    font-family: Chakra Petch;
+    color: var(--dblue);
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 4px double var(--dblue);
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: Chakra Petch;
+    color: var(--dblue);
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px;
+    width: auto;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.small {
+    color: var(--dgrey);
+    font-weight: bold;
+    font-size: 105%;
+}
+
+.divider {
+    background-color: transparent;
+    color: transparent;
+    border: 3px solid;
+    height: 5px;
+    width: auto;
+}
+
+li {
+    list-style: none;
+    font-family: Chakra Petch;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    font-family: Chakra Petch;
+    color: #c400ff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.experience {
+    display: inline-table;
+    text-align: center;
+    width: 45%;
+    height: auto;
+}
+
+hr {
+    border-color: #222035;
+    margin: 10px;
+}
