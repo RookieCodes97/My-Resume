@@ -15,7 +15,7 @@
 @font-face { font-family: glitchgoblin; src: url('../fonts/GlitchGoblin-2O87v.ttf'); } 
 @font-face { font-family: glitchcrafty; src: url('../fonts/Glitchcrafty-lgo4V.ttf'); } 
 @font-face { font-family: cyborgpunk; src: url('../fonts/Cyborg Punk.ttf'); } 
-
+@font-face { font-family: cyborgpunk; src: url('./fonts/Cyborg Punk.ttf'); } 
 
 
 body {
